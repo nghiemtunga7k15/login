@@ -1,0 +1,31 @@
+.mb-3 textarea{
+	width: 100%;
+	height: 200px;
+	font-size: 14px;
+	line-height: 18px;
+	border: 1px solid #dddddd;
+	padding: 10px;
+}
+.name{
+
+}
+.content{
+	padding-top: 3%;
+}
+.described textarea{
+	width: 100%; 
+	height: 100px;
+}
+.described{
+	padding-top: 3%;
+}
+.file{
+	padding-top: 3%;
+}
+.note{
+	padding-top: 3%;
+}
+.note textarea{
+	width: 100%; 
+	height: 80px;"
+}

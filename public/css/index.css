@@ -1,0 +1,641 @@
+.section-product .box-product .image, .section-product .box-product .download, .section-product .box-product .title {
+    text-align: center;
+}
+
+/* Product */
+.section-product h2::after {
+    content: "";
+    display: block;
+    background-color: #fa6018;
+    width: 100px;
+    height: 4px;
+    margin: 20px auto 0;
+}
+
+.section-product .box-product {
+    padding: 20px 30px;
+    box-shadow: 0 0 10px #ccc;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    background: url(https://atpsoftware.vn/wp-content/themes/jnews-child/template/img/bg-pro.png) no-repeat #fdfdfd;
+    background-size: contain;
+    position: relative;
+}
+
+.box-hover {
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    width: 100%;
+    top: 60px;
+    display: none;
+}
+
+.box-product:hover .box-hover {
+    display: block;
+}
+
+.box-hover .button {
+    text-align: center;
+    margin-bottom: 20px;
+    width: 100%;
+    background: transparent;
+}
+
+.box-hover .button .btn {
+    width: 130px;
+    padding: 10px;
+    font-weight: bold;
+    color: #fff;
+    line-height: 1.42857143;
+    border-radius: 4px;
+}
+
+.box-hover .button-quick .btn {
+    background-color: #fff0;
+    border: 2px solid #fff;
+    transition: all 0.2s;
+}
+
+.box-hover .button-quick .btn:hover {
+    background: #fff;
+    color: #000;
+}
+
+.section-product .box-product .image img {
+    width: 160px;
+}
+
+.section-product .box-product .btn-second {
+    width: 100%;
+    padding: 5px;
+}
+
+.section-product .product-more {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.section-product .product-more .btn-main {
+    padding: 15px 60px;
+    border-radius: 40px;
+    font-size: 22px;
+    box-shadow: 0 0 46px #fa601861;
+}
+
+.section-product .product-more img {
+    width: 40px;
+    margin-right: 10px;
+}
+
+/* popup product */
+.section-popupproduct {
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background: #00000080;
+    z-index: 999;
+}
+
+.popup-content {
+    background: #fff;
+    width: 800px;
+    margin: 80px auto 0;
+    border-radius: 20px;
+    text-align: center;
+    position: relative;
+}
+
+.popup-content h3.title {
+    padding: 0 50px;
+}
+
+.section-popupproduct .image-product {
+    text-align: center;
+    position: relative;
+    background: url(https://atpsoftware.vn/wp-content/themes/jnews-child/template/img/layer-bg.png) no-repeat 50%;
+    background-size: contain;
+    margin: 0 40px;
+}
+
+.popup-content .titletag span {
+    background-color: #fa6018;
+    color: #ffffff;
+    padding: 7px 10px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.popup-content .titletag {
+    font-size: 18px;
+    color: #cd0606;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.popup-content .description img {
+    width: 20px;
+}
+
+.popup-content .col-md-12 .description {
+    padding: 0 20px;
+    margin: 20px 0;
+}
+
+.popup-content .col-md-12 .btn {
+    margin: 0 10px;
+    padding: 10px 0;
+    width: 150px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.popup-content .col-md-12 .btn-default {
+    background: #000000;
+    color: #ffffff;
+}
+
+.section-popupproduct .image-product img {
+    width: 220px;
+}
+
+.popup-content .close-popup {
+    padding-right: 10px;
+    padding-top: 10px;
+    position: absolute;
+    right: 0;
+    z-index: 1;
+}
+
+.popup-content .close-popup a {
+    background: #fa6018;
+    color: #fff;
+    padding: 0px 9px;
+    border-radius: 25px;
+    font-size: 22px;
+    float: right;
+    text-decoration: none;
+}
+
+.popup-content .content-body {
+    text-align: left;
+}
+
+.section-product .box-product:hover .image::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 230px;
+    margin-top: -20px;
+    border-radius: 10px 10px 0 0;
+    left: 0;
+    background-color: #0006;
+}
+
+/* box Product */
+.section-product .box-product .title span {
+    font-size: 20px;
+    background: #fa6018;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.section-product .box-product .price {
+    text-align: center;
+    font-size: 18px;
+    color: #e60405;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.section-product .box-product .description {
+    min-height: 80px;
+}
+
+.section-product .download img {
+    width: 20px;
+}
+
+.section-product .icon {
+    position: absolute;
+    right: 10%;
+    top: 40%;
+}
+
+.section .popup-content .icon {
+    top: auto;
+    bottom: 10%;
+}
+
+.affix {
+    position: fixed;
+}
+
+.hide {
+    display: none !important;
+}
+
+.box-hover .button:hover, .box-hover .button-quick .btn:hover {
+    box-shadow: none;
+}
+
+.ppocta-ft-fix {
+    position: fixed;
+    bottom: 5px;
+    left: 5px;
+    min-width: 120px;
+    text-align: center;
+    z-index: 9999;
+}
+#callNowButton {
+    display: inline-block;
+    position: relative;
+    border-radius: 50%;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    box-shadow: 0px 0px 10px -2px rgba(0,0,0,.7);
+}
+#zaloButton {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background: #5ac5ef;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px -2px rgba(0,0,0,.7);
+}
+#messengerButton {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background: #4267b2;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px -2px rgba(0,0,0,.7);
+}
+
+#callNowButton a {
+    display: block;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    text-align: center;
+}
+/*#registerNowButton {*/
+/*    display: inline-block;*/
+/*    color: #fff;*/
+/*    height: 50px;*/
+/*    width: 50px;*/
+/*    border-radius: 50%;*/
+/*    margin-right: 5px;*/
+/*    background: url(/wp-content/themes/jnews-child/template/img/group-facebook.png) center center no-repeat red;*/
+/*    box-shadow: 0px 0px 10px -2px rgba(0,0,0,.7);*/
+/*    text-decoration: none;*/
+/*}*/
+/*#callNowButton i {*/
+/*    border-radius: 50%;*/
+/*    display: inline-block;*/
+/*    width: 50px;*/
+/*    height: 50px;*/
+/*    background: url(/wp-content/themes/jnews-child/template/img/callbutton.png) center center no-repeat #090;*/
+/*}*/
+/*#zaloButton>a>i {*/
+/*    background: url(/wp-content/themes/jnews-child/template/img/zalo.png) center center no-repeat;*/
+/*    background-size: 57%;*/
+/*    width: 50px;*/
+/*    height: 50px;*/
+/*    display: inline-block;*/
+/*}*/
+/*#messengerButton>a>i {*/
+/*    background: url(/wp-content/themes/jnews-child/template/img/messenger.png) center center no-repeat;*/
+/*    background-size: 57%;*/
+/*    width: 50px;*/
+/*    height: 50px;*/
+/*    display: inline-block;*/
+/*}*/
+@media only screen and (min-width: 1080px) {
+    .ppocta-ft-fix {
+        display: none !important;
+    }
+}
+
+.atp-call .atp-vong {
+    z-index: 999;
+    position: fixed;
+    border-radius: 100%;
+    opacity: .5;
+    top: 75px;
+    right: 10px;
+    width: 110px;
+    height: 110px;
+    border: 2px solid #ca2929;
+}
+
+.atp-call .atp-tron {
+    opacity: 0.75;
+    z-index: 999;
+    position: fixed;
+    border-radius: 100%;
+    top: 90px;
+    right: 25px;
+    width: 80px;
+    height: 80px;
+    background-color: #ca292980;
+}
+
+.atp-call .atp-text p {
+    margin: 0px;
+    padding: 0px 10px;
+    font-size: 16px;
+}
+
+.atp-call .atp-text {
+    position: fixed;
+    z-index: 999;
+    box-shadow: 5px 5px 5px #555;
+    top: 160px;
+    right: 25px;
+    background-color: #ffff00;
+    color: #000000;
+}
+
+@keyframes tada {
+    0% {
+        transform: scale(1);
+    }
+    10%, 20% {
+        transform: scale(0.9) rotate(-3deg);
+    }
+    30%, 50%, 70%, 90% {
+        transform: scale(1.1) rotate(3deg);
+    }
+    40%, 60%, 80% {
+        transform: scale(1.1) rotate(-3deg);
+    }
+    100% {
+        transform: scale(1) rotate(0);
+        opacity: 1;
+    }
+}
+
+.atp-call .tada {
+    -webkit-animation-name: tada;
+    animation-name: tada;
+}
+
+@keyframes zoomIn {
+    0% {
+        opacity: 0;
+        -webkit-transform: scale(.3);
+        -ms-transform: scale(.3);
+        transform: scale(.3);
+    }
+    50% {
+        opacity: 1;
+    }
+}
+
+.atp-call .zoomIn {
+    -webkit-animation-name: zoomIn;
+    animation-name: zoomIn;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.atp-call .pulse {
+    -webkit-animation-name: pulse;
+    animation-name: pulse;
+}
+
+.atp-call .animated.infinite {
+    animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+}
+
+.atp-call .animated {
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+}
+
+.atp-call .atp-vong {
+    z-index: 999;
+    position: fixed;
+    border-radius: 100%;
+    opacity: .5;
+    top: 75px;
+    right: 10px;
+    width: 110px;
+    height: 110px;
+    border: 2px solid #ca2929;
+}
+
+.atp-call .atp-tron {
+    opacity: 0.75;
+    z-index: 999;
+    position: fixed;
+    border-radius: 100%;
+    top: 90px;
+    right: 25px;
+    width: 80px;
+    height: 80px;
+    background-color: #ca292980;
+}
+
+.atp-call .atp-text p {
+    margin: 0px;
+    padding: 0px 10px;
+    font-size: 16px;
+}
+
+.atp-call .atp-text {
+    position: fixed;
+    z-index: 999;
+    box-shadow: 5px 5px 5px #555;
+    top: 160px;
+    right: 25px;
+    background-color: #ffff00;
+    color: #000000;
+}
+
+@keyframes tada {
+    0% {
+        transform: scale(1);
+    }
+    10%, 20% {
+        transform: scale(0.9) rotate(-3deg);
+    }
+    30%, 50%, 70%, 90% {
+        transform: scale(1.1) rotate(3deg);
+    }
+    40%, 60%, 80% {
+        transform: scale(1.1) rotate(-3deg);
+    }
+    100% {
+        transform: scale(1) rotate(0);
+        opacity: 1;
+    }
+}
+
+.atp-call .tada {
+    -webkit-animation-name: tada;
+    animation-name: tada;
+}
+
+@keyframes zoomIn {
+    0% {
+        opacity: 0;
+        -webkit-transform: scale(.3);
+        -ms-transform: scale(.3);
+        transform: scale(.3);
+    }
+    50% {
+        opacity: 1;
+    }
+}
+
+.atp-call .zoomIn {
+    -webkit-animation-name: zoomIn;
+    animation-name: zoomIn;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.atp-call .pulse {
+    -webkit-animation-name: pulse;
+    animation-name: pulse;
+}
+
+.atp-call .animated.infinite {
+    animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+}
+
+.atp-call .animated {
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+}
+
+#FormModalATP.modal {
+    display: none;
+    position: fixed;
+    z-index: 99999999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    /*background-color: rgba(0,0,0,0.4);*/
+}
+
+#FormModalATP .modal-dialog {
+    width: 600px;
+    margin: 115px auto 30px;
+}
+
+#FormModalATP .modal-content {
+    background-color: #fefefe;
+    border: 1px solid #888;
+    width: 50%;
+    margin: 30px auto 40px;
+    border-radius: 10px;
+    width: 623px;
+}
+
+#FormModalATP .close-modal:hover,
+#FormModalATP .close-modal:focus {
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    box-shadow: 0 2px 5px #888;
+    transition: all 0.2s;
+}
+
+#FormModalATP .formContactNow {
+    margin-left: 10px;
+    margin-top: 28px;
+}
+
+#FormModalATP .formRight {
+    width: 380px;
+    height: 350px;
+    float: left;
+}
+
+#FormModalATP .formRight h4 {
+    padding: 25px 15px 15px;
+    text-align: center;
+    margin-top: 0;
+}
+
+#FormModalATP .formLeft {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    height: 370px;
+    width: 241px;
+    float: left;
+    background-color: #0c6fff;
+}
+
+#FormModalATP .formContactNow .input-group {
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+#FormModalATP .formContactNow .input-group-addon {
+    background: none;
+    border: 0;
+    border-bottom: 2px solid #eee;
+    border-radius: 0;
+    float: left;
+    height: 40px;
+    padding: 12px 0 5px;
+    width: 5%;
+}
+
+#FormModalATP .formContactNow .inputContact {
+    border: 0;
+    border-bottom: 2px solid #eee;
+    width: 95%;
+    height: 40px;
+    padding-left: 10px;
+}
+
+#FormModalATP .copyrightform {
+    margin-top: 25px;
+    padding-left: 10px;
+    color: #fff;
+    background-color: #828282;
+}
+

@@ -1,0 +1,42 @@
+.float-ck {
+    position: fixed;
+    bottom: 4px;
+    z-index: 9000;
+    left:2px
+}
+* html .float-ck {
+    position:absolute;
+    bottom:auto;
+}
+#float_content_left {}
+#hide_float_left {
+    text-align:left;
+    font-size: 18px;
+}
+#hide_float_left a {
+    background: #01AEF0;
+    padding: 4px 8px;
+    color: #FFF;}
+#qcatp{
+    width:223px;
+    height:80px
+}
+.atp_changelog pre {
+    background-image: linear-gradient(#f5f5f5 50%, #e6e6e6 50%);
+    background-size: 38px 38px;
+    border: 1px solid #d4d4d4;
+    line-height: 19px;
+    overflow: visible;
+    padding: 0 0 0 4px;
+    overflow-y: hidden;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+.atp_changelog p {
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+.single-post .content-inner iframe {
+    width: 100%;
+}
